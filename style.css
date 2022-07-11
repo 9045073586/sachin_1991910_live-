@@ -1,0 +1,94 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+    width: 100%;
+    height: 70px;
+    
+    
+    
+    padding-top: 10px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+    display: inline;
+    padding-left: 40px;
+    font-size: 25px;
+}
+li:hover{
+    color:green;
+}
+.R{
+   margin: 0;
+    text-align: center;
+font-size: 40px;
+
+background-color: coral;
+width: 100px;
+}
+.Rogan{
+    border:2px solid grey;
+    color: red;
+    text-align: center;
+    width: 100px;
+}
+.offpara{
+    width:200px;
+    margin-top: 140px;
+    margin-left: 50px;
+    border:2px solid grey
+    
+}
+span{
+    color: red;
+}
+
+
+.section2{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+   
+  
+    
+    
+}
+.para{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+}
+.main-content{
+   
+    
+   
+    width: 50%;
+    height:350px;
+    
+}
+.articles{
+   width: 50%;
+   height: 400px;
+    margin-left: 30px;
+    
+  background-image: url("images/jpg2png (1)/ben-kolde-FaPxZ88yZrw-unsplash.png");
+  background-repeat: repeat;
+  background-size: cover;
+    flex-direction: column;
+
+   
+}
+.student{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-weight: bold;
+}
